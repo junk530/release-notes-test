@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: "lts/*"
       - name Add plugin
-    run: npm install @semantic-release/exec
+        run: npm install @semantic-release/exec
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
