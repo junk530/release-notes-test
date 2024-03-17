@@ -25,7 +25,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: "lts/*"
-      - name Add plugin
+      - name: Add plugin
         run: npm install @semantic-release/exec
       - name: Release
         env:
